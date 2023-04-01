@@ -1,0 +1,186 @@
+body{
+  background: linear-gradient(to bottom right, #36dcf1, #296dd4, #641ba8) 
+}
+
+section{
+
+}
+  
+
+
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  font-size: 30px;
+  justify-content: space-evenly;
+}
+
+li{
+  text-decoration: none;
+  margin: 20px;
+}
+
+.li1{
+  display: inline-block;
+  position: relative;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.li1::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 2px;
+  left: 0;
+  background-color: white;
+  transition: width 0.7s ease-in-out;
+}
+
+.li1:hover::after{
+  width: 100%
+}
+
+h1{
+  font-size: 80px;
+  margin: 0;
+}
+
+h2{
+  font-size: 45px;
+}
+
+h4{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+p{
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.contacta-me{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.hero-area{
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button{
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: rgb(99, 31, 176);;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top:  20px;
+}
+
+.button:hover{
+  background-color: rgb(83, 170, 141);
+  cursor: pointer;
+
+}
+
+.button:active{
+  background-color: rgb(47, 82, 70);
+}
+
+.socials{
+  margin-right: 30px;
+  padding-bottom: 200px;
+
+}
+
+.social{
+  margin: 10px;
+}
+
+
+.logo{
+  height: 120px;
+  margin: 30px;
+}
+
+.sub-section{
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sub-section-alternative{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 600px;
+}
+
+.headshot{
+  width: 300px;
+  border-radius: 150px;
+}
+
+.headshot-container{
+  display: flex;
+  align-items: center;
+}
+
+.projetct-card{
+  width: 400px;
+  height: 400px;
+  box-shadow: 10px 10px 15px rgb(37, 92, 58);
+  margin: 10px;
+}
+
+.project-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-image{
+  margin-top: 30px;
+  width: 300px;
+  border-radius: 125px;
+
+}
+
+.information{
+  color: #1c1d25;
+}
+
+hr{
+  margin-left: 20px;
+  margin-right: 20px;
+}
